@@ -15,7 +15,7 @@
 
 */}}
 
-{{/* Declare a new string variable, $linkToCover */}}
+<!-- {{/* Declare a new string variable, $linkToCover */}}
 {{ $linkToCover := "" }}
 {{ $matches := "feature,cover" }}
 {{/* Use the value from front matter if present */}}
@@ -34,7 +34,7 @@
       {{ $linkToCover = .RelPermalink }}
     {{ end }}
   {{ end }}
-{{ end }}
+{{ end }} -->
 
 {{/* return either a permalink, or an empty string. Note that partials can only have a single
 return statement, so this needs to be at the end of the partial (and not in the if block) */}}
